@@ -21,9 +21,8 @@ aside{
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
-    border:solid 2px black !important;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(169, 165, 165);
 }
 aside > h3 {
     margin: 0;
@@ -53,14 +52,18 @@ article {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 300px;    
+    width: 300px;       
 }
 article > figure {
     margin: 0;
     padding: 10px;
-    border: solid 2px black;
-    box-shadow: 2px 2px 10px black;
-    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(169, 165, 165);
+    border-radius: 5px;
+    transform: scale(1);
+    transition-duration: 200ms;
+}
+article > figure:hover {
+   transform: scale(1.1);
 }
 .containerUlP{
     display: flex;
