@@ -63,9 +63,7 @@ article > figure {
     transform: scale(1);
     transition-duration: 200ms;
 }
-article > figure:hover {
-   transform: scale(1.1);
-}
+
 .containerUlP{
     display: flex;
 }

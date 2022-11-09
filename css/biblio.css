@@ -1,0 +1,20 @@
+img {
+
+height : 328px;
+width: auto;
+
+}
+
+figure {
+    background-color: white;
+    
+}
+
+article > figure:hover {
+    z-index: 4;
+ }
+
+ .footer {
+    position: absolute;
+    bottom: 0;
+ }
