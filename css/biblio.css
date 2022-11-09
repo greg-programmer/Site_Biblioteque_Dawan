@@ -14,7 +14,3 @@ article > figure:hover {
     z-index: 4;
  }
 
- .footer {
-    position: absolute;
-    bottom: 0;
- }
