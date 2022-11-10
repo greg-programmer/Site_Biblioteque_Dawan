@@ -11,7 +11,7 @@ header{
     height: auto;
 }
 main {
-    justify-content: space-between;      
+    justify-content: space-around;      
     align-items: center;   
 }
 aside{
@@ -25,16 +25,17 @@ aside > h3 {
     background-color: #198754;
 }
 figure{
-    display: flex;     
+    display: flex;    
 }
 footer {
     background-color:#198754;
     width: 100%;
-    height: auto; 
+    height: auto;
 }
 footer > ul{
     display: flex;
-    justify-content: space-around;         
+    justify-content: space-around;    
+    margin: revert;  
 }
 footer > ul > li > a {
     text-decoration: none;
@@ -48,10 +49,10 @@ article {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 300px;       
+    width: 300px;      
 }
 article > figure {
-    margin: 0;
+    margin: auto;
     padding: 10px;
     box-shadow: 2px 2px 10px rgb(169, 165, 165);
     border-radius: 5px;
