@@ -7,7 +7,9 @@ width: auto;
 
 figure {
     background-color: white;
-    
+    object-fit: cover;
+    width: 220px;
+    height: 340px;
 }
 
 article > figure:hover {
