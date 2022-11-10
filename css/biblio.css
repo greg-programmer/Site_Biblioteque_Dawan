@@ -1,0 +1,16 @@
+img {
+
+height : 328px;
+width: auto;
+
+}
+
+figure {
+    background-color: white;
+    
+}
+
+article > figure:hover {
+    z-index: 4;
+ }
+
