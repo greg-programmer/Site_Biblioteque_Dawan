@@ -1,7 +1,5 @@
 img {
-
-height : 328px;
-width: auto;
+display: block;
 
 }
 
@@ -10,9 +8,23 @@ figure {
     object-fit: cover;
     width: 220px;
     height: 340px;
+  
 }
 
-article > figure:hover {
-    z-index: 4;
- }
+  .resume {
+   color: black;
+    position: absolute;
+    background-color: rgba(25, 135, 84,0.7);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   width: 200px;
+   
+  }
+  
+  .resume:hover {
+opacity: 1;
+  }
+  
 
